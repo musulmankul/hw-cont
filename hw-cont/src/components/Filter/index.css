@@ -1,0 +1,24 @@
+.filter-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.filter-buttons button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: royalblue;
+    border: 1px royalblue solid;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.filter-buttons button:hover {
+    background-color: royalblue;
+    color: white;
+    transition: 0.3s ease-in-out;
+}

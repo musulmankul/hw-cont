@@ -1,0 +1,20 @@
+.product-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.allCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.spinner {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
